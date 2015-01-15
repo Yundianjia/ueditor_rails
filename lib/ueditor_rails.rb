@@ -9,6 +9,7 @@ module UeditorRails
     autoload :FormBuilder, 'ueditor_rails/helpers/form_builder'
   end
 
+  mattr_accessor :cross_domain
   mattr_accessor :enable_cross_domain
 
   class<< self
